@@ -15,7 +15,7 @@ class UserController extends Controller
     }
 
     public function store(Request $request){
-        
+        //prueba
         $request->validate([
             'name' => 'required|min:5',
             'last_name' => 'required|min:5',
